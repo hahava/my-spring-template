@@ -7,6 +7,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
+/**
+ * Servlet-config 의 역할을 하는 클래스
+ *
+ * @author hahava
+ */
 @EnableWebMvc
 @ComponentScan(basePackages = {"com.kalin"})
 public class ServletConfig implements WebMvcConfigurer {

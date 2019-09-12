@@ -2,6 +2,11 @@ package com.kalin.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+/**
+ * Web.xml 의 역할을 하는 클래스
+ *
+ * @author hahava
+ */
 public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
